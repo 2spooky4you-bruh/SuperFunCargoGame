@@ -5,11 +5,13 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperFunCargoGame.API", "SuperFunCargoGame\SuperFunCargoGame.API.csproj", "{8EAFE1DD-6DC6-463C-B81C-443B87C97F56}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperFunCargoGame.Core", "SuperFunCargoGame.Core\SuperFunCargoGame.Core.csproj", "{D3D97C22-7BAB-4E6A-869F-58476A672BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperFunCargoGame.ApplicationCore", "SuperFunCargoGame.Core\SuperFunCargoGame.ApplicationCore.csproj", "{D3D97C22-7BAB-4E6A-869F-58476A672BDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFunCargoGame.Identity", "SuperFunCargoGame.Identity\SuperFunCargoGame.Identity.csproj", "{1094C192-195C-4271-917F-C244AEEE55CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFunCargoGame.Persistence", "SuperFunCargoGame.Persistence\SuperFunCargoGame.Persistence.csproj", "{3D728E5A-E2F8-43D4-81B1-F50730240D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFunCargoGame.Domain", "SuperFunCargoGame.Domain\SuperFunCargoGame.Domain.csproj", "{D1ABB1F9-9C06-4C16-98AD-EEFAD2121DBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3D728E5A-E2F8-43D4-81B1-F50730240D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D728E5A-E2F8-43D4-81B1-F50730240D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D728E5A-E2F8-43D4-81B1-F50730240D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1ABB1F9-9C06-4C16-98AD-EEFAD2121DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ABB1F9-9C06-4C16-98AD-EEFAD2121DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ABB1F9-9C06-4C16-98AD-EEFAD2121DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ABB1F9-9C06-4C16-98AD-EEFAD2121DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

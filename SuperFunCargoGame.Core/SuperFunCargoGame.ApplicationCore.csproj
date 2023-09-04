@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -10,6 +10,12 @@
     <PackageReference Include="Mapsui" Version="4.0.0" />
     <PackageReference Include="OsmApiClient" Version="0.0.8" />
     <PackageReference Include="OsmSharp" Version="7.0.0-pre022" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SuperFunCargoGame.Domain\SuperFunCargoGame.Domain.csproj" />
+    <ProjectReference Include="..\SuperFunCargoGame.Identity\SuperFunCargoGame.Identity.csproj" />
+    <ProjectReference Include="..\SuperFunCargoGame.Persistence\SuperFunCargoGame.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

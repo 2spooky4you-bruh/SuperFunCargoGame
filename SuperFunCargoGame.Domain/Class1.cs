@@ -1,4 +1,4 @@
-﻿namespace SuperFunCargoGame.Identity
+﻿namespace SuperFunCargoGame.Domain
 {
     public class Class1
     {
