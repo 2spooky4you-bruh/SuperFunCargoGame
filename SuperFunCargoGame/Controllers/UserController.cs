@@ -2,11 +2,10 @@
 
 namespace SuperFunCargoGame.API.Controllers
 {
-    public class UserController : Controller
+    [ApiController]
+    [Route("/Account")]
+    public class UserController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+       
     }
 }
